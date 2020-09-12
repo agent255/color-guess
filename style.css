@@ -1,0 +1,48 @@
+.colourButton {
+  background-color: #7754a8;
+  width: 5rem;
+  height: 5rem;
+  border: none;
+  border-radius: 50%;
+  box-shadow: none;
+  margin: 10px;
+  color: #f5b158;
+}
+
+#buttonWrapper {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 0 auto;
+}
+
+h1 {
+  text-align: center;
+}
+
+#colourValue {
+  margin: 0 auto;
+  text-align: center;
+}
+
+#answer {
+  margin: 0 auto;
+  text-align: center;
+}
+
+#reset {
+  margin: 0 auto;
+  text-align: center;
+}
+
+#resetbutton {
+  background-color: #6a07f5;
+  width: 5rem;
+  height: 5rem;
+  border: none;
+  border-radius: 50%;
+  box-shadow: none;
+  margin: 10px;
+  color: #72a880;
+}
