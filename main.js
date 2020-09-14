@@ -28,12 +28,14 @@ function reset(){
     if(colors[i]){
         colourButtons[i].style.display="block";
         colourButtons[i].style.backgroundColor=colors[i];
+        colourButtons.textContent="This Colour???";
     }
     else{
         colourButtons[i].style.display="none";
     }}
     answer.textContent="";
     resetButton.textContent="Reset";
+    body.style.backgroundColor='violet';
 }
 
 function mainfunc(){
@@ -42,21 +44,14 @@ function mainfunc(){
             if(clickedColor===pickedColor){
                 answer.textContent="Correct!";
                 resetButton.textContent="Play Again?";
-                body.style.backgroundColor=clickedColor;
-                change();
+                body.style.backgroundColor='green';
             }
             else{
                 this.style.backgroundColor="#232323";
-                this.textContent="Error";
-                answer.textContent="Try Again";
+                body.style.backgroundColor='red';
+                answer.textContent="Try Again!!!";
             }
         });
-    }
-}
-
-function change(){
-    for(var i=0; i<colourButtons.length;i++){
-        colourButtons[i].textContent="Won";
     }
 }
 
