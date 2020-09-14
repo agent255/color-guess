@@ -1,48 +1,75 @@
+body{
+    background: violet;
+}
 .colourButton {
-  background-color: #7754a8;
-  width: 5rem;
-  height: 5rem;
-  border: none;
-  border-radius: 50%;
-  box-shadow: none;
-  margin: 10px;
-  color: #f5b158;
+    background-color: #7754a8;
+    width: 5rem;
+    height: 5rem;
+    border: none;
+    border-radius: 50%;
+    box-shadow: none;
+    margin: 10px;
+    color: #f5b158;
 }
 
 #buttonWrapper {
-  width: 100%;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  margin: 0 auto;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 0 auto;
 }
 
 h1 {
-  text-align: center;
+    text-align: center;
+    font-size: xxx-large;
+    margin: 30px auto;
 }
 
 #colourValue {
-  margin: 0 auto;
-  text-align: center;
+    margin: 25px auto;
+    text-align: center;
+    font-weight: 900;
+    font-size: 1.9rem;
 }
 
 #answer {
-  margin: 0 auto;
-  text-align: center;
+    margin: 40px auto;
+    text-align: center;
+    font-weight: bold;
+    font-size: 5rem;
+    color: #000
 }
 
 #reset {
-  margin: 0 auto;
-  text-align: center;
+    margin: 30px auto;
+    padding: 0px;
+    text-align: center;
+    font-size: 25px;
+    border: 1px solid;
+    width: 18%;
+    cursor: pointer;
+    border-radius: 20px;
 }
-
-#resetbutton {
-  background-color: #6a07f5;
-  width: 5rem;
-  height: 5rem;
-  border: none;
-  border-radius: 50%;
-  box-shadow: none;
-  margin: 10px;
-  color: #72a880;
+.btn {
+    background: #ffffff; */
+    -moz-box-shadow: 8px 14px 20px #00d9ff;
+    box-shadow: 6px 3px 9px #1c1c1d;
+    font-family: Courier New;
+    color: #ffffff;
+    font-size: 0.8rem;
+    text-align: center;
+    border: 4px solid #000;
+    text-decoration: none;
+    width: 100px;
+    height: 100px;
+}
+      
+.btn:hover {
+    text-decoration: none;
+    box-shadow: inset 3px 0px 9px 2px #000;
+}
+#reset:hover{
+        background: #fff;
+    box-shadow: inset 0px -2px 14px 4px #000;
 }
